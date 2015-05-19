@@ -2,6 +2,7 @@
 -- 05/19/15 10:16:46
 -- Model: New Model    Version: 1.0
 -- MySQL Workbench Forward Engineering
+-- otro
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
