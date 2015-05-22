@@ -1,11 +1,15 @@
 package basededatos;
 
 import java.util.List;
+
 import org.hibernate.LockMode;
 import org.hibernate.Query;
 import org.hibernate.criterion.Example;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import beans.Reparaciones;
+import beans.ReparacionesId;
 
 /**
  * A data access object (DAO) providing persistence and search support for
@@ -48,7 +52,7 @@ public class ReparacionesDAO extends BaseHibernateDAO {
 	}
 
 	public Reparaciones findById(
-			basededatos.ReparacionesId id) {
+			ReparacionesId id) {
 		log.debug("getting Reparaciones instance with id: " + id);
 		try {
 			Reparaciones instance = (Reparaciones) getSession().get(

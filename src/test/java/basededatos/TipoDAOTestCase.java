@@ -1,2 +1,2 @@
-package basedeatos;
+package basededatos;
 public class TipoDAOTestCase{}
